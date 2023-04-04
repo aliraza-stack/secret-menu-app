@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "SMI",
-    "slug": "SMI",
+    "slug": "smi",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "aliraza.cybernest"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.aliraxa_cybernest.smi"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3962d4f1-3318-413b-a9d0-ad151ab9b863"
+      }
+    },
+    "owner": "aliraxa_cybernest"
   }
 }
